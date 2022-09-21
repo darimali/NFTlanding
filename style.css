@@ -1,45 +1,115 @@
 * {
-    box-sizing: border-box;
-}
-
-html {
-    min-height: 100%;
-    padding: 0;
-    border: 0;
-    width: 100%;
-    font-family: 'Inter', sans-serif;
-    background-color: #FFF0E8;
+  font-family: 'Inter', sans-serif;
 }
 
 body {
-    position: relative;
-    width: 1440px;
-    height: 3300px;
-    margin-left: auto;
-    margin-right: auto;
-
-    /* Light 1 */
-    background: #FFFFFF;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
-    border-radius: 16px;
+  max-width: 1440px;
 }
 
 header {
-    display: flex;
-    width: 1280px;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 70px; 
-    margin-left: 80px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 nav a {
-    text-decoration: none;
-    font-size: 20px;
-    padding-left: 20px;
-    color: #555555;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 20px;
+  color: #555555;
 }
 
 nav a:last-child {
-    color: #FF3998;
+  color: #FF3998;
 }
+
+hero {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.herographic {
+  overflow: hidden;
+}
+
+.herotext {
+  padding-top: 50px;
+  width: 620px;
+  min-width: 200px;
+}
+
+hero h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+hero h2 {
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  color: #ff3998;
+}
+
+.button {
+  margin-bottom: 32px;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 60px;
+  background-image: url(img/background.svg);
+  background-size: 160px;
+  border-radius: 36px;
+}
+
+.button-inside {
+  width: 154px;
+  height: 54px;
+  background-color: white;
+  border-radius: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hero p {
+  color: rgb(75, 75, 75);
+}
+
+upsell {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  height: 320px;
+  background-image: url(img/background.svg);
+  background-repeat: no-repeat;
+  margin-left: 80px;
+}
+
+upsell h1,
+upsell p {
+  margin-left: 32px;
+}
+
+upsell p {
+  margin-bottom: 64px;
+}
+
+press {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+  height: 50px;
+  margin-top: 60px;
+}
+
+
+
+
